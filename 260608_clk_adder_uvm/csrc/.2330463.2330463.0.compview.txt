@@ -1,5 +1,0 @@
-{"vcs1":{"timestamp_begin":1780982339.233171789, "rt":0.07, "ut":0.02, "st":0.03}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1780982338.814595454}
-{"VCS_COMP_START_TIME": 1780982338.814595454}
-{"VCS_COMP_END_TIME": 1780982339.329330282}
-{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm-1.2 -timescale=1ns/1ps -debug_access+all -kdb -lca -o simv ./rtl/adder.sv ./tb/tb_adder.sv"}
