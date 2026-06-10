@@ -1,0 +1,37 @@
+# Simulation build/output files
+csrc/
+simv
+simv.daidir/
+*.log
+*.fsdb
+ucli.key
+vc_hdrs.h
+
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+*.backup.jou
+*.backup.log
+
+# Vivado generated directories
+*.cache/
+*.hw/
+*.sim/
+*.runs/
+*.gen/
+*.ip_user_files/
+.ip_user_files/
+
+# Simulation/compiler output that can appear under .srcs
+xsim.dir/
+*.sdb
+*.rlx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
