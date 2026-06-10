@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1780556673.275494061, "rt":0.06, "ut":0.03, "st":0.01}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1780556672.955730992}
+{"VCS_COMP_START_TIME": 1780556672.955730992}
+{"VCS_COMP_END_TIME": 1780556673.367875061}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -debug_access+all -kdb -lca -timescale=1ns/1ps -o simv sram.sv tb_sram.sv"}

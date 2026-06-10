@@ -1,0 +1,48 @@
+Invoking simulator...
+Verdi>./simv -sml=verdi +fsdb+gate=off -ucli2Proc -ucli
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+*Verdi* Loading libsscore_vcs202409.so
+FSDB Dumper for VCS, Release Verdi_X-2025.06-1, Linux x86_64/64bit, 07/19/2025
+(C) 1996 - 2025 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/home/pedu17/temp/workspace/260604_sram/inter_1.fsdb'
+*Verdi* : Flush all FSDB Files at 0 ps.
+*Verdi* : Enable RPC Server(3616090)
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2_Full64; Runtime version W-2024.09-SP2_Full64;  Jun  4 16:22 2026
+Warning : License for product VCS-BASE-RUNTIME will expire within 19 days, on: 22-jun-2026.
+If you would like to temporarily disable this message, set 
+ the VCS_LIC_EXPIRE_WARNING environment variable to the number of days
+before expiration that you want this message to start (the minimum is 0).
+Verdi>fsdbDumpvars 0 "tb_RAM.dut.clk"  +all +trace_process;fsdbDumpvars 0 "tb_RAM.dut.we"  +all +trace_process;fsdbDumpvars 0 "tb_RAM.dut.addr"  +all +trace_process;fsdbDumpvars 0 "tb_RAM.dut.wdata"  +all +trace_process;fsdbDumpvars 0 "tb_RAM.dut.rdata"  +all +trace_process
+*Verdi* : Dumping the signal (tb_RAM.dut.clk).
+*Verdi* : Dumping the signal (tb_RAM.dut.we).
+*Verdi* : Dumping the signal (tb_RAM.dut.addr).
+*Verdi* : Dumping the signal (tb_RAM.dut.wdata).
+*Verdi* : Dumping the signal (tb_RAM.dut.rdata).
+*Verdi* : Flush all FSDB Files at 0 ps.
+Verdi>run
+*Verdi* WARNING: Env/runtime option has specified fsdbfile name as "/home/pedu17/temp/workspace/260604_sram/inter_1.fsdb". Fsdbfile name in task "wave_ram.fsdb" is ignored.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+              126000 : PASS
+              136000 : PASS
+              146000 : PASS
+              156000 : PASS
+              166000 : PASS
+              176000 : PASS
+              186000 : PASS
+              196000 : PASS
+              206000 : PASS
+env run task end
+________________________
+** SRAM IP Verificaiton **
+** total test num =  9 ***
+** Pass test num =  9 ***
+** Fail test num =  0 ***
+*************************
+tb_ram.sv, 206 :         $stop;

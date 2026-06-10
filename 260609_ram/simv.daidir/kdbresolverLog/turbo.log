@@ -1,0 +1,3 @@
+Command Line: /tools/synopsys/vcs/W-2024.09-SP2/linux64/bin/elabcom -simflow -KDBRESOLVER -simvdaidir /home/pedu17/temp/workspace/260609_ram/simv.daidir -saveLevel -ssv -ssy -q -logdir /home/pedu17/temp/workspace/260609_ram/simv.daidir/kdbresolverLog
+uname(Linux kccipangyo1 4.18.0-553.83.1.el8_10.x86_64 #1 SMP Fri Oct 31 03:39:01 EDT 2025 x86_64)
+au time 0.148562 0.142986 0.017418 delta 114327552 114327552 total 366870528 366870528

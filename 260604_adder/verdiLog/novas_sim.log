@@ -1,0 +1,46 @@
+Verdi>restart
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+*Verdi* Loading libsscore_vcs202409.so
+FSDB Dumper for VCS, Release Verdi_X-2025.06-1, Linux x86_64/64bit, 07/19/2025
+(C) 1996 - 2025 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file '/home/pedu17/temp/workspace/260604_adder/inter.fsdb'
+*Verdi* : Flush all FSDB Files at 0 ps.
+*Verdi* : Enable RPC Server(3032094)
+*Verdi* : Flush all FSDB Files at 0 ps.
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2_Full64; Runtime version W-2024.09-SP2_Full64;  Jun  4 15:41 2026
+Warning : License for product VCS-BASE-RUNTIME will expire within 19 days, on: 22-jun-2026.
+If you would like to temporarily disable this message, set 
+ the VCS_LIC_EXPIRE_WARNING environment variable to the number of days
+before expiration that you want this message to start (the minimum is 0).
+Verdi>run
+*Verdi* WARNING: Env/runtime option has specified fsdbfile name as "/home/pedu17/temp/workspace/260604_adder/inter.fsdb". Fsdbfile name in task "wave.fsdb" is ignored.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+
+Stop point #1 @ 0 ps;  
+Verdi>run
+0 + 0 = 0
+
+Stop point #2 @ 20000 ps;  
+Verdi>run
+10 +20 = 30
+
+Stop point #3 @ 40000 ps;  
+Verdi>run
+30 + 20 = 50
+
+Stop point #4 @ 60000 ps;  
+Verdi>run
+8 + 1 = 9
+
+Stop point #5 @ 80000 ps;  
+Verdi>run
+99 + 100 = 199
+$finish called from file "tb_adder.sv", line 51.
+$finish at simulation time               110000
+Simulation complete, time is 110000 ps.
+tb_adder.sv, 51 : 	$finish;
