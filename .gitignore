@@ -1,0 +1,81 @@
+# Editor / OS
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+*.jou
+*.history
+transcript
+
+# Simulation outputs
+simv
+simv.daidir/
+csrc/
+ucli.key
+vc_hdrs.h
+inter.vpd
+novas.rc
+
+# Waveform / dump files
+*.vcd
+*.vpd
+*.fsdb
+*.fst
+*.wlf
+*.trn
+
+# Verdi / Synopsys
+verdiLog/
+verdi_config_file
+novas.conf
+novas_dump.log
+*.fsdb.*
+*.vdb
+*.vdb/
+
+# Coverage
+urgReport/
+covhtmlreport/
+*.ucdb
+*.vdb
+coverage/
+work/
+
+# Build / generated
+obj_dir/
+build/
+out/
+run/
+runs/
+result/
+results/
+
+# Backup / temp
+*.bak
+*.tmp
+*.old
+*.orig
+csrc/
+simv
+simv.daidir/
+verdiLog/
+
+*.fsdb
+*.vcd
+*.vpd
+*.log
+*.key
+*.h
+*.o
+*.so
+*.db
+*.sdb
+
+novas.*
+ucli.key
+tr_db.log
+vc_hdrs.h
